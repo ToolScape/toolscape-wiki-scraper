@@ -1,0 +1,30 @@
+{
+  "name": "toolscape-wiki-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes the OSRS Wiki for data",
+  "main": "main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToolScape/toolscape-wiki-scraper.git"
+  },
+  "keywords": [
+    "osrs",
+    "oldschool",
+    "runescape",
+    "wiki"
+  ],
+  "author": "iBelg",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ToolScape/toolscape-wiki-scraper/issues"
+  },
+  "homepage": "https://github.com/ToolScape/toolscape-wiki-scraper#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "wtf_wikipedia": "^7.8.1"
+  }
+}
